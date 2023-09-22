@@ -10,6 +10,6 @@ class Main {
             }
         }
 
-        SimpleMatrix.guiDraw(matrix, "Matrix GUI");
+        SimpleMatrix.guiDraw(matrix, "Matrix GUI",1000,1000);
     }
 }

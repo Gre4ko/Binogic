@@ -32,12 +32,12 @@
             System.out.println(temp.toString());
         }
 
-        public static void guiDraw(int [][] matrix, String name){
+        public static void guiDraw(int [][] matrix, String name, int height, int width){
             SwingUtilities.invokeLater(() -> {
                 JFrame frame = new JFrame(name);
                 frame.setResizable(false);
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.setSize(500, 500);
+                frame.setSize(width, height);
 
                 JPanel panel = new JPanel(new GridLayout(matrix.length, matrix[0].length));
 
