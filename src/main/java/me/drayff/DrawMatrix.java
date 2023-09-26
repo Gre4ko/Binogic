@@ -24,7 +24,7 @@ public class DrawMatrix {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(width, height);
 
-        JPanel panel = new JPanel(new GridLayout(matrix.length, matrix[0].length));
+        JPanel panel = new JPanel(new GridLayout(matrix.length, matrix.length));
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
