@@ -4,8 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 
 public class DrawMatrix {
-    public static void consoleDraw(int [][] matrix, String symbol){
+    public static void consoleDraw(SimpleMatrix objectMatrix, String symbol){
         StringBuilder consoleMatrix = new StringBuilder();
+        int[][] matrix = objectMatrix.getMatrix();
+
         for (int i = 0; i < matrix.length; i++) {
             consoleMatrix.append("\n");
             for (int j = 0; j < matrix.length; ++j) {
@@ -18,7 +20,9 @@ public class DrawMatrix {
         System.out.println(consoleMatrix);
     }
 
-    public static void guiDraw(int [][] matrix, String name, int height, int width){
+    public static void guiDraw(SimpleMatrix objectMatrix, String name, int height, int width){
+        int[][] matrix = objectMatrix.getMatrix();
+
         JFrame frame = new JFrame(name);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
