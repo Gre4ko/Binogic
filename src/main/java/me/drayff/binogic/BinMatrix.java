@@ -1,8 +1,8 @@
-package me.drayff;
+package me.drayff.binogic;
 
 import java.util.Arrays;
 
-public class SimpleMatrix {
+public class BinMatrix {
     private int[][] matrix;
 
     public void createMatrix(int sizeOfMatrix) {

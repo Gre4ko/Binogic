@@ -1,6 +1,6 @@
 # [Binogic](https://github.com/Drayff/Binogic)
 This module can be used to work with matrices and provides several methods for manipulating a matrix represented by a two-dimensional array of integers.
-## In the SimpleMatrix class, you'll find the following methods with a brief analysis:
+## In the BinMatrix class, you'll find the following methods with a brief analysis:
 
 1. `createMatrix(int sizeOfMatrix)`:
    - This method creates a square matrix of the specified size, `sizeOfMatrix`.

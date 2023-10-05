@@ -1,10 +1,10 @@
-package me.drayff;
+package me.drayff.binogic;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class DrawMatrix {
-    public static void consoleDraw(SimpleMatrix objectMatrix, String symbol){
+    public static void consoleDraw(BinMatrix objectMatrix, String symbol){
         StringBuilder consoleMatrix = new StringBuilder();
         int[][] matrix = objectMatrix.getMatrix();
 
@@ -20,7 +20,7 @@ public class DrawMatrix {
         System.out.println(consoleMatrix);
     }
 
-    public static void guiDraw(SimpleMatrix objectMatrix, String name, int height, int width){
+    public static void guiDraw(BinMatrix objectMatrix, String name, int height, int width){
         int[][] matrix = objectMatrix.getMatrix();
 
         JFrame frame = new JFrame(name);

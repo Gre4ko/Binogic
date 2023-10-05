@@ -1,9 +1,8 @@
-package me.drayff;
+package me.drayff.binogic;
 
 class Main {
     public static void main(String[] args) {
-        SimpleMatrix objectMatrix = new SimpleMatrix();
-
+        BinMatrix objectMatrix = new BinMatrix();
         objectMatrix.createMatrix(10);
         int matrixLength = objectMatrix.getMatrix().length;
 
