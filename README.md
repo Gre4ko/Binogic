@@ -7,12 +7,12 @@ This module can be used to work with matrices and provides several methods for m
    - Initializes all elements of the matrix to zeros using `Arrays.fill`.
 
 2. `binaryReverse(int x, int y)`:
-   - This method takes a matrix and coordinates (`x` and `y`) of an element.
+   - This method takes a coordinates (`x` and `y`) of an element.
    - If the element at the specified coordinates is 0, it changes to 1, and vice versa.
    - The method modifies the matrix and returns it.
 
 3. `binaryTurnOn(int x, int y)`:
-   - This method takes a matrix and coordinates (`x` and `y`) of an element.
+   - This method takes a coordinates (`x` and `y`) of an element.
    - If the element at the specified coordinates is 0, it is set to 1.
    - The method modifies the matrix and returns it.
 
@@ -20,7 +20,7 @@ This module can be used to work with matrices and provides several methods for m
    - This method is similar to `binaryTurnOn`, but if the element at the specified coordinates is 1, it is set to 0.
 
 5. `rectangle(int x0, int x1, int y0, int y1)`:
-   - This method takes a matrix and coordinates (`x0`, `x1`, `y0`, and `y1`) defining a region.
+   - This method takes a coordinates (`x0`, `x1`, `y0`, and `y1`) defining a region.
    - It draws a filled rectangle within the specified area.
    - The method modifies the matrix and returns it.
 
