@@ -2,8 +2,7 @@ package me.drayff.binogic;
 
 class Main {
     public static void main(String[] args) {
-        BinMatrix objectMatrix = new BinMatrix();
-        objectMatrix.createMatrix(10);
+        BinMatrix objectMatrix = new BinMatrix(10);
         int matrixLength = objectMatrix.getMatrix().length;
 
         for(int j = 0; j < matrixLength; j+=2) {
