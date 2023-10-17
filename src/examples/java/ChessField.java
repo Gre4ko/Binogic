@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package me.drayff.binogic;
+import me.drayff.binogic.BinMatrix;
+import me.drayff.binogic.DrawMatrix;
 
-class Main {
+class ChessField {
     public static void main(String[] args) {
         BinMatrix objectMatrix = new BinMatrix(10);
         int matrixLength = objectMatrix.getMatrix().length;
@@ -29,6 +30,6 @@ class Main {
         }
 
         DrawMatrix.consoleDraw(objectMatrix, "*");
-        DrawMatrix.guiDraw(objectMatrix, "Matrix GUI",500,500);
+        DrawMatrix.guiDraw(objectMatrix, "Chess Field GUI",500,500);
     }
 }
