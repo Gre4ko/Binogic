@@ -36,13 +36,11 @@ public class BinMatrix {
     }
 
     public void binaryTurnOn(int x, int y) {
-        if (matrix[x][y] == 0)
-            matrix[x][y] = 1;
+        matrix[x][y] = 1;
     }
 
     public void binaryTurnOff(int x, int y) {
-        if (matrix[x][y] == 1)
-            matrix[x][y] = 0;
+        matrix[x][y] = 0;
     }
     public void rectangle(int x0, int x1, int y0, int y1) {
         for (int i = x0; i < x1; i++) {
