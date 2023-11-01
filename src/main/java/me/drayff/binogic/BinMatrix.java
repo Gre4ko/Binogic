@@ -29,10 +29,7 @@ public class BinMatrix {
     }
 
     public void binaryReverse(int x, int y) {
-        if (matrix[x][y] == 0)
-            matrix[x][y] = 1;
-        else
-            matrix[x][y] = 0;
+        matrix[x][y] = martix[x][y] == 0 ? 1 : 0;
     }
 
     public void binaryTurnOn(int x, int y) {
