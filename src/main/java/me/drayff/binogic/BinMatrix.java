@@ -30,7 +30,7 @@ public class BinMatrix {
     }
 
     //negation of element value in the matrix
-    public void binaryReverse(int x, int y) {
+    public void binaryNegation(int x, int y) {
         matrix[x][y] = martix[x][y] == 0 ? 1 : 0;
     }
 
