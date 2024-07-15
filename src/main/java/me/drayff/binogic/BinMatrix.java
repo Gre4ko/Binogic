@@ -21,6 +21,7 @@ import java.util.Arrays;
 public class BinMatrix {
     private final int[][] matrix;
 
+    //create sizeOfMatrix*sizeOfMatrix matrix
     public BinMatrix(int sizeOfMatrix) {
         matrix = new int[sizeOfMatrix][sizeOfMatrix];
         for(int i = 0; i < sizeOfMatrix; i++) {
@@ -28,17 +29,22 @@ public class BinMatrix {
         }
     }
 
+    //negation of element value in the matrix
     public void binaryReverse(int x, int y) {
         matrix[x][y] = martix[x][y] == 0 ? 1 : 0;
     }
 
+    //set matrix element to 1
     public void binaryTurnOn(int x, int y) {
         matrix[x][y] = 1;
     }
 
+    //set matrix element to 0
     public void binaryTurnOff(int x, int y) {
         matrix[x][y] = 0;
     }
+
+    //creating a rectangle using coordinates of points that are the ends of the diagonal
     public void rectangle(int x0, int x1, int y0, int y1) {
         for (int i = x0; i < x1; i++) {
             for (int j = y0; j < y1; j++) {
