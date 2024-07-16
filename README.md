@@ -2,7 +2,7 @@
 This module can be used to work with matrices and provides several methods for manipulating a matrix represented by a two-dimensional array of integers.
 ## In the BinMatrix class, you'll find the following methods with a brief analysis:
 
-1. `binaryReverse(int x, int y)`:
+1. `binaryNegation(int x, int y)`:
    - This method takes a coordinates (`x` and `y`) of an element.
    - If the element at the specified coordinates is 0, it changes to 1, and vice versa.
    - The method modifies the matrix and returns it.
