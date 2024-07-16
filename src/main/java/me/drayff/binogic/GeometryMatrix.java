@@ -1,4 +1,6 @@
-class GeometryMatrix {
+package me.drayff.binogic;
+
+public class GeometryMatrix {
 
     //creating a rectangle using coordinates of points that are the ends of the diagonal
     public void rectangle(int x0, int x1, int y0, int y1) {
