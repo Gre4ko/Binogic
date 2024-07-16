@@ -29,6 +29,10 @@ public class BinMatrix {
         }
     }
 
+    public BinMatrix(int[][] array) {
+        matrix = array;
+}
+
     //negation of element value in the matrix
     public void binaryNegation(int x, int y) {
         matrix[x][y] = martix[x][y] == 0 ? 1 : 0;
