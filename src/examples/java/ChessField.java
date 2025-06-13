@@ -18,7 +18,7 @@ import me.drayff.binogic.BinMatrix;
 import me.drayff.binogic.DrawMatrix;
 import me.drayff.binogic.GeometryMatrix;
 
-class ChessField {
+public class ChessField {
     public static void main(String[] args) {
         BinMatrix objectMatrix = new BinMatrix(10);
         int matrixLength = objectMatrix.getMatrix().length;
