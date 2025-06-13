@@ -7,8 +7,7 @@ public class GeometryMatrix {
         new_matrix = matrix.getMatrix();
         for (int i = x0; i < x1; i++) {
             for (int j = y0; j < y1; j++) {
-                if (new_matrix[i][j] == 0)
-                    new_matrix[i][j] = 1;
+                new_matrix[i][j] = 1;
             }
         }
         new2matrix = new BinMatrix(new_matrix);
