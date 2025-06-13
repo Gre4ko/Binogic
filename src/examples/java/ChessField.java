@@ -16,6 +16,7 @@
 
 import me.drayff.binogic.BinMatrix;
 import me.drayff.binogic.DrawMatrix;
+import me.drayff.binogic.GeometryMatrix;
 
 class ChessField {
     public static void main(String[] args) {
@@ -24,8 +25,8 @@ class ChessField {
 
         for(int j = 0; j < matrixLength; j+=2) {
             for(int i = 0; i < matrixLength; i+=2) {
-                objectMatrix = GeometryMatrix.rectangle(objectMatrix, i,i+1,j,j+1);
-                objectMatrix = GeometryMatrix.rectangle(objectMatrix, i+1,i+2,j+1,j+2);
+                GeometryMatrix.rectangle(objectMatrix, i,i+1,j,j+1);
+                GeometryMatrix.rectangle(objectMatrix, i+1,i+2,j+1,j+2);
             }
         }
 

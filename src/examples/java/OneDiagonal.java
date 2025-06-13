@@ -17,7 +17,7 @@
 import me.drayff.binogic.BinMatrix;
 import me.drayff.binogic.DrawMatrix;
 
-public class OneDiagonal {
+class OneDiagonal {
     public static void main(String[] args) {
         BinMatrix objectMatrix = new BinMatrix(10);
         int matrixLength = objectMatrix.getMatrix().length;
