@@ -27,7 +27,7 @@ This module can be used to work with matrices and provides several methods for m
    - It creates a graphical representation of the matrix.
    - Method result: Creating a graphical representation of the matrix.
 
-## And the GeometryMatrix with following methods:
+## And the GeometryMatrix class with following methods:
 1. `rectangle(BinMatrix matrix, int xStart, int xEnd, int yStart, int yEnd)`:
    - This method takes a coordinates (`xStart`, `xEnd`, `yStart`, and `yEnd`) defining a region.
    - It draws a filled rectangle within the specified area.
